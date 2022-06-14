@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    padding: 4px 10px;
+}
+.footerText{
+    flex: 1;
+    line-height: 30px;
+}
+.footerFunction{
+    background-color: violet;
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+.footerFunction:hover{
+    opacity: 0.8;
+}
